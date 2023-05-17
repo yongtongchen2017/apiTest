@@ -1,0 +1,32 @@
+- testCase:
+      description: login success
+      name: login
+      method: post
+      uri: "/v3/api/user/phone_login"
+      headers:
+        Content-Type: application/json
+      payload:
+        phone: "13528872802"
+        password: "Aa12345678"
+        callbackType: 0
+      extract:
+        token: $.data.token
+      validate:
+         - equal_to:
+            $.code: 0
+         - equal_to:
+            $.data.phone: "13528872802"
+- testCase:
+      description: profile
+      name: profile
+      method: post
+      uri: "/v3/api/user/profile"
+      headers:
+        Content-Type: application/json
+        jwt-token: ${token}
+      payload: {}
+      validate:
+        - equal_to:
+            $.code: 0
+        - equal_to:
+            $.code: 0

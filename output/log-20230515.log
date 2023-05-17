@@ -1,0 +1,236 @@
+[2023-05-15 13:56:26,254][read_yaml.py 11][INFO]:BASE_DIR is: /Users/lj_fei94/PycharmProjects/apiTest
+[2023-05-15 13:56:26,255][read_yaml.py 13][INFO]:fileDir is:/Users/lj_fei94/PycharmProjects/apiTest/testdata/test.yml
+[2023-05-15 13:56:26,264][testPytest.py 44][INFO]:a
+[2023-05-15 13:56:26,265][testPytest.py 44][INFO]:b
+[2023-05-15 13:56:26,267][testPytest.py 44][INFO]:c
+[2023-05-15 13:56:26,357][testRequest.py 15][INFO]:r is: <Response [200]>
+[2023-05-15 13:56:26,358][testRequest.py 16][INFO]:r.text is: <!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>ç¾åº¦ä¸ä¸ï¼ä½ å°±ç¥é</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=ç¾åº¦ä¸ä¸ class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>æ°é»</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>å°å¾</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>è§é¢</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>è´´å§</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>ç»å½</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">ç»å½</a>');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">æ´å¤äº§å</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>å³äºç¾åº¦</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>ä½¿ç¨ç¾åº¦åå¿è¯»</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>æè§åé¦</a>&nbsp;äº¬ICPè¯030173å·&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+[2023-05-15 13:56:26,358][testRequest.py 17][INFO]:r.status_code is:200
+[2023-05-15 13:56:26,359][testRequest.py 18][INFO]:r.content is:b'<!DOCTYPE html>\r\n<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>\xe7\x99\xbe\xe5\xba\xa6\xe4\xb8\x80\xe4\xb8\x8b\xef\xbc\x8c\xe4\xbd\xa0\xe5\xb0\xb1\xe7\x9f\xa5\xe9\x81\x93</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=\xe7\x99\xbe\xe5\xba\xa6\xe4\xb8\x80\xe4\xb8\x8b class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>\xe6\x96\xb0\xe9\x97\xbb</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>\xe5\x9c\xb0\xe5\x9b\xbe</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>\xe8\xa7\x86\xe9\xa2\x91</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>\xe8\xb4\xb4\xe5\x90\xa7</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>\xe7\x99\xbb\xe5\xbd\x95</a> </noscript> <script>document.write(\'<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u=\'+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ \'" name="tj_login" class="lb">\xe7\x99\xbb\xe5\xbd\x95</a>\');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">\xe6\x9b\xb4\xe5\xa4\x9a\xe4\xba\xa7\xe5\x93\x81</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>\xe5\x85\xb3\xe4\xba\x8e\xe7\x99\xbe\xe5\xba\xa6</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>\xe4\xbd\xbf\xe7\x94\xa8\xe7\x99\xbe\xe5\xba\xa6\xe5\x89\x8d\xe5\xbf\x85\xe8\xaf\xbb</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>\xe6\x84\x8f\xe8\xa7\x81\xe5\x8f\x8d\xe9\xa6\x88</a>&nbsp;\xe4\xba\xacICP\xe8\xaf\x81030173\xe5\x8f\xb7&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>\r\n'
+[2023-05-15 13:56:28,247][testRequest.py 24][INFO]:r is: <Response [200]>
+[2023-05-15 13:56:28,247][testRequest.py 25][INFO]:r.url is:https://httpbin.org/post?key1=value1&key2=value2
+[2023-05-15 13:56:28,247][testRequest.py 26][INFO]:r.text is: {
+  "args": {
+    "key1": "value1", 
+    "key2": "value2"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Content-Length": "0", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.30.0", 
+    "X-Amzn-Trace-Id": "Root=1-6461c98b-62530e7804096df73ae476e1"
+  }, 
+  "json": null, 
+  "origin": "125.121.37.177", 
+  "url": "https://httpbin.org/post?key1=value1&key2=value2"
+}
+
+[2023-05-15 13:56:28,248][testRequest.py 27][INFO]:r.status_code is:200
+[2023-05-15 13:56:28,248][testRequest.py 28][INFO]:r.content is:b'{\n  "args": {\n    "key1": "value1", \n    "key2": "value2"\n  }, \n  "data": "", \n  "files": {}, \n  "form": {}, \n  "headers": {\n    "Accept": "*/*", \n    "Accept-Encoding": "gzip, deflate", \n    "Content-Length": "0", \n    "Host": "httpbin.org", \n    "User-Agent": "python-requests/2.30.0", \n    "X-Amzn-Trace-Id": "Root=1-6461c98b-62530e7804096df73ae476e1"\n  }, \n  "json": null, \n  "origin": "125.121.37.177", \n  "url": "https://httpbin.org/post?key1=value1&key2=value2"\n}\n'
+[2023-05-15 13:56:32,650][testRequest.py 36][INFO]:r is: <Response [200]>
+[2023-05-15 13:56:32,650][testRequest.py 37][INFO]:r.url is:https://httpbin.org/post
+[2023-05-15 13:56:32,651][testRequest.py 38][INFO]:r.text is: {
+  "args": {}, 
+  "data": "{\"key1\": \"value1\", \"key2\": \"value2\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Content-Length": "36", 
+    "Content-Type": "application/json", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.30.0", 
+    "X-Amzn-Trace-Id": "Root=1-6461c98d-47df47ed264de4eb356c7e4b"
+  }, 
+  "json": {
+    "key1": "value1", 
+    "key2": "value2"
+  }, 
+  "origin": "125.121.37.177", 
+  "url": "https://httpbin.org/post"
+}
+
+[2023-05-15 13:56:32,651][testRequest.py 39][INFO]:r.status_code is:200
+[2023-05-15 13:56:32,651][testRequest.py 40][INFO]:r.content is:b'{\n  "args": {}, \n  "data": "{\\"key1\\": \\"value1\\", \\"key2\\": \\"value2\\"}", \n  "files": {}, \n  "form": {}, \n  "headers": {\n    "Accept": "*/*", \n    "Accept-Encoding": "gzip, deflate", \n    "Content-Length": "36", \n    "Content-Type": "application/json", \n    "Host": "httpbin.org", \n    "User-Agent": "python-requests/2.30.0", \n    "X-Amzn-Trace-Id": "Root=1-6461c98d-47df47ed264de4eb356c7e4b"\n  }, \n  "json": {\n    "key1": "value1", \n    "key2": "value2"\n  }, \n  "origin": "125.121.37.177", \n  "url": "https://httpbin.org/post"\n}\n'
+[2023-05-15 13:56:32,653][testYaml.py 17][INFO]:data is: {'method': 'post', 'url': 'https://api2.mubu.com/v3/api/user/phone_login', 'data': {'phone': '13528xxxxx', 'password': 'Aa123456', 'callbackType': 0}}
+[2023-05-15 13:56:32,978][testYaml.py 19][INFO]:r is: <Response [200]>
+[2023-05-15 13:56:32,978][testYaml.py 20][INFO]:r.url is:https://api2.mubu.com/v3/api/user/phone_login
+[2023-05-15 13:56:32,978][testYaml.py 21][INFO]:r.text is: {"code":5,"msg":"Params invalid"}
+[2023-05-15 13:56:32,978][testYaml.py 22][INFO]:r.status_code is:200
+[2023-05-15 13:56:32,978][testYaml.py 23][INFO]:r.content is:b'{"code":5,"msg":"Params invalid"}'
+[2023-05-15 13:56:32,982][testYaml.py 17][INFO]:data is: {'method': 'post', 'url': 'https://api2.mubu.com/v3/api/user/phone_login', 'data': {'phone': '135288728xxxx', 'password': 'Aa1234568', 'callbackType': 0}}
+[2023-05-15 13:56:33,138][testYaml.py 19][INFO]:r is: <Response [200]>
+[2023-05-15 13:56:33,139][testYaml.py 20][INFO]:r.url is:https://api2.mubu.com/v3/api/user/phone_login
+[2023-05-15 13:56:33,139][testYaml.py 21][INFO]:r.text is: {"code":5,"msg":"Params invalid"}
+[2023-05-15 13:56:33,139][testYaml.py 22][INFO]:r.status_code is:200
+[2023-05-15 13:56:33,139][testYaml.py 23][INFO]:r.content is:b'{"code":5,"msg":"Params invalid"}'
+[2023-05-15 13:57:00,884][read_yaml.py 11][INFO]:BASE_DIR is: /Users/lj_fei94/PycharmProjects/apiTest
+[2023-05-15 13:57:00,884][read_yaml.py 13][INFO]:fileDir is:/Users/lj_fei94/PycharmProjects/apiTest/testdata/test.yml
+[2023-05-15 13:57:00,889][testPytest.py 44][INFO]:a
+[2023-05-15 13:57:00,890][testPytest.py 44][INFO]:b
+[2023-05-15 13:57:00,891][testPytest.py 44][INFO]:c
+[2023-05-15 13:57:00,953][testRequest.py 15][INFO]:r is: <Response [200]>
+[2023-05-15 13:57:00,953][testRequest.py 16][INFO]:r.text is: <!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>ç¾åº¦ä¸ä¸ï¼ä½ å°±ç¥é</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=ç¾åº¦ä¸ä¸ class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>æ°é»</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>å°å¾</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>è§é¢</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>è´´å§</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>ç»å½</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">ç»å½</a>');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">æ´å¤äº§å</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>å³äºç¾åº¦</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>ä½¿ç¨ç¾åº¦åå¿è¯»</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>æè§åé¦</a>&nbsp;äº¬ICPè¯030173å·&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+[2023-05-15 13:57:00,955][testRequest.py 17][INFO]:r.status_code is:200
+[2023-05-15 13:57:00,955][testRequest.py 18][INFO]:r.content is:b'<!DOCTYPE html>\r\n<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>\xe7\x99\xbe\xe5\xba\xa6\xe4\xb8\x80\xe4\xb8\x8b\xef\xbc\x8c\xe4\xbd\xa0\xe5\xb0\xb1\xe7\x9f\xa5\xe9\x81\x93</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=\xe7\x99\xbe\xe5\xba\xa6\xe4\xb8\x80\xe4\xb8\x8b class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>\xe6\x96\xb0\xe9\x97\xbb</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>\xe5\x9c\xb0\xe5\x9b\xbe</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>\xe8\xa7\x86\xe9\xa2\x91</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>\xe8\xb4\xb4\xe5\x90\xa7</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>\xe7\x99\xbb\xe5\xbd\x95</a> </noscript> <script>document.write(\'<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u=\'+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ \'" name="tj_login" class="lb">\xe7\x99\xbb\xe5\xbd\x95</a>\');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">\xe6\x9b\xb4\xe5\xa4\x9a\xe4\xba\xa7\xe5\x93\x81</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>\xe5\x85\xb3\xe4\xba\x8e\xe7\x99\xbe\xe5\xba\xa6</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>\xe4\xbd\xbf\xe7\x94\xa8\xe7\x99\xbe\xe5\xba\xa6\xe5\x89\x8d\xe5\xbf\x85\xe8\xaf\xbb</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>\xe6\x84\x8f\xe8\xa7\x81\xe5\x8f\x8d\xe9\xa6\x88</a>&nbsp;\xe4\xba\xacICP\xe8\xaf\x81030173\xe5\x8f\xb7&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>\r\n'
+[2023-05-15 13:57:02,468][testRequest.py 24][INFO]:r is: <Response [200]>
+[2023-05-15 13:57:02,468][testRequest.py 25][INFO]:r.url is:https://httpbin.org/post?key1=value1&key2=value2
+[2023-05-15 13:57:02,468][testRequest.py 26][INFO]:r.text is: {
+  "args": {
+    "key1": "value1", 
+    "key2": "value2"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Content-Length": "0", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.30.0", 
+    "X-Amzn-Trace-Id": "Root=1-6461c9ae-2db9f42a2fb70fe306b39267"
+  }, 
+  "json": null, 
+  "origin": "125.121.37.177", 
+  "url": "https://httpbin.org/post?key1=value1&key2=value2"
+}
+
+[2023-05-15 13:57:02,468][testRequest.py 27][INFO]:r.status_code is:200
+[2023-05-15 13:57:02,468][testRequest.py 28][INFO]:r.content is:b'{\n  "args": {\n    "key1": "value1", \n    "key2": "value2"\n  }, \n  "data": "", \n  "files": {}, \n  "form": {}, \n  "headers": {\n    "Accept": "*/*", \n    "Accept-Encoding": "gzip, deflate", \n    "Content-Length": "0", \n    "Host": "httpbin.org", \n    "User-Agent": "python-requests/2.30.0", \n    "X-Amzn-Trace-Id": "Root=1-6461c9ae-2db9f42a2fb70fe306b39267"\n  }, \n  "json": null, \n  "origin": "125.121.37.177", \n  "url": "https://httpbin.org/post?key1=value1&key2=value2"\n}\n'
+[2023-05-15 13:57:04,806][testRequest.py 36][INFO]:r is: <Response [200]>
+[2023-05-15 13:57:04,807][testRequest.py 37][INFO]:r.url is:https://httpbin.org/post
+[2023-05-15 13:57:04,807][testRequest.py 38][INFO]:r.text is: {
+  "args": {}, 
+  "data": "{\"key1\": \"value1\", \"key2\": \"value2\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Content-Length": "36", 
+    "Content-Type": "application/json", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.30.0", 
+    "X-Amzn-Trace-Id": "Root=1-6461c9af-446bc13f121bf87376b5504c"
+  }, 
+  "json": {
+    "key1": "value1", 
+    "key2": "value2"
+  }, 
+  "origin": "125.121.37.177", 
+  "url": "https://httpbin.org/post"
+}
+
+[2023-05-15 13:57:04,807][testRequest.py 39][INFO]:r.status_code is:200
+[2023-05-15 13:57:04,807][testRequest.py 40][INFO]:r.content is:b'{\n  "args": {}, \n  "data": "{\\"key1\\": \\"value1\\", \\"key2\\": \\"value2\\"}", \n  "files": {}, \n  "form": {}, \n  "headers": {\n    "Accept": "*/*", \n    "Accept-Encoding": "gzip, deflate", \n    "Content-Length": "36", \n    "Content-Type": "application/json", \n    "Host": "httpbin.org", \n    "User-Agent": "python-requests/2.30.0", \n    "X-Amzn-Trace-Id": "Root=1-6461c9af-446bc13f121bf87376b5504c"\n  }, \n  "json": {\n    "key1": "value1", \n    "key2": "value2"\n  }, \n  "origin": "125.121.37.177", \n  "url": "https://httpbin.org/post"\n}\n'
+[2023-05-15 13:57:04,810][testYaml.py 17][INFO]:data is: {'method': 'post', 'url': 'https://api2.mubu.com/v3/api/user/phone_login', 'data': {'phone': '13528xxxxx', 'password': 'Aa123456', 'callbackType': 0}}
+[2023-05-15 13:57:05,020][testYaml.py 19][INFO]:r is: <Response [200]>
+[2023-05-15 13:57:05,020][testYaml.py 20][INFO]:r.url is:https://api2.mubu.com/v3/api/user/phone_login
+[2023-05-15 13:57:05,020][testYaml.py 21][INFO]:r.text is: {"code":5,"msg":"Params invalid"}
+[2023-05-15 13:57:05,020][testYaml.py 22][INFO]:r.status_code is:200
+[2023-05-15 13:57:05,021][testYaml.py 23][INFO]:r.content is:b'{"code":5,"msg":"Params invalid"}'
+[2023-05-15 13:57:05,023][testYaml.py 17][INFO]:data is: {'method': 'post', 'url': 'https://api2.mubu.com/v3/api/user/phone_login', 'data': {'phone': '135288728xxxx', 'password': 'Aa1234568', 'callbackType': 0}}
+[2023-05-15 13:57:05,224][testYaml.py 19][INFO]:r is: <Response [200]>
+[2023-05-15 13:57:05,225][testYaml.py 20][INFO]:r.url is:https://api2.mubu.com/v3/api/user/phone_login
+[2023-05-15 13:57:05,225][testYaml.py 21][INFO]:r.text is: {"code":5,"msg":"Params invalid"}
+[2023-05-15 13:57:05,225][testYaml.py 22][INFO]:r.status_code is:200
+[2023-05-15 13:57:05,225][testYaml.py 23][INFO]:r.content is:b'{"code":5,"msg":"Params invalid"}'
+[2023-05-15 16:46:34,482][testRequest.py 36][INFO]:r is: {'args': {}, 'data': '{"key1": "value1", "key2": "value2"}', 'files': {}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '36', 'Content-Type': 'application/json', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.30.0', 'X-Amzn-Trace-Id': 'Root=1-6461f168-7e2be6224bba5b814b6d0935'}, 'json': {'key1': 'value1', 'key2': 'value2'}, 'origin': '125.121.37.177', 'url': 'https://httpbin.org/post'}
+[2023-05-15 16:49:43,568][testRequest.py 36][INFO]:r is: {'args': {}, 'data': '{"key1": "value1", "key2": "value2"}', 'files': {}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '36', 'Content-Type': 'application/json', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.30.0', 'X-Amzn-Trace-Id': 'Root=1-6461f20c-06ac694e4f289558018dd8b5'}, 'json': {'key1': 'value1', 'key2': 'value2'}, 'origin': '125.121.37.177', 'url': 'https://httpbin.org/post'}
+[2023-05-15 17:11:10,434][testRequest.py 36][INFO]:r is: {'args': {}, 'data': '{"key1": "value1", "key2": "value2"}', 'files': {}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '36', 'Content-Type': 'application/json', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.30.0', 'X-Amzn-Trace-Id': 'Root=1-6461f709-6172eb7b32b5085746755213'}, 'json': {'key1': 'value1', 'key2': 'value2'}, 'origin': '125.121.37.177', 'url': 'https://httpbin.org/post'}
+[2023-05-15 17:17:20,343][testRequest.py 36][INFO]:r is: {'args': {}, 'data': '{"key1": "value1", "key2": "value2"}', 'files': {}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '36', 'Content-Type': 'application/json', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.30.0', 'X-Amzn-Trace-Id': 'Root=1-6461f89e-61ef8de14c4b8051336e2a4a'}, 'json': {'key1': 'value1', 'key2': 'value2'}, 'origin': '125.121.37.177', 'url': 'https://httpbin.org/post'}
+[2023-05-15 17:19:08,910][testRequest.py 36][INFO]:r is: {'args': {}, 'data': '{"key1": "value1", "key2": "value2"}', 'files': {}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '36', 'Content-Type': 'application/json', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.30.0', 'X-Amzn-Trace-Id': 'Root=1-6461f90a-52acc71671e8e21425e7d314'}, 'json': {'key1': 'value1', 'key2': 'value2'}, 'origin': '125.121.37.177', 'url': 'https://httpbin.org/post'}
+[2023-05-15 17:19:57,092][testRequest.py 36][INFO]:r is: {'args': {}, 'data': '{"key1": "value1", "key2": "value2"}', 'files': {}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '36', 'Content-Type': 'application/json', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.30.0', 'X-Amzn-Trace-Id': 'Root=1-6461f93b-5382c2a91bc37345229bf0eb'}, 'json': {'key1': 'value1', 'key2': 'value2'}, 'origin': '125.121.37.177', 'url': 'https://httpbin.org/post'}
+[2023-05-15 17:19:57,092][testRequest.py 38][INFO]:r.json is: {'key1': 'value1', 'key2': 'value2'}
+[2023-05-15 17:19:57,092][testRequest.py 39][INFO]:r.data is:{"key1": "value1", "key2": "value2"}
+[2023-05-15 17:20:25,759][testRequest.py 36][INFO]:r is: {'args': {}, 'data': '{"key1": "value1", "key2": "value2"}', 'files': {}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '36', 'Content-Type': 'application/json', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.30.0', 'X-Amzn-Trace-Id': 'Root=1-6461f959-7227ee886fb10b3553d36332'}, 'json': {'key1': 'value1', 'key2': 'value2'}, 'origin': '125.121.37.177', 'url': 'https://httpbin.org/post'}
+[2023-05-15 17:20:25,760][testRequest.py 37][INFO]:r.url is: https://httpbin.org/post
+[2023-05-15 17:20:25,760][testRequest.py 38][INFO]:r.json is: {'key1': 'value1', 'key2': 'value2'}
+[2023-05-15 17:20:25,760][testRequest.py 39][INFO]:r.data is:{"key1": "value1", "key2": "value2"}
+[2023-05-15 22:44:37,425][read_yaml.py 11][INFO]:BASE_DIR is: /Users/lj_fei94/PycharmProjects/apiTest
+[2023-05-15 22:44:37,426][read_yaml.py 13][INFO]:fileDir is:/Users/lj_fei94/PycharmProjects/apiTest/testdata/test.yml
+[2023-05-15 22:44:51,677][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login success', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '135288728xxx', 'password': '123456abc', 'callbackType': 0}, 'extract': {'token': '$.data.token'}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 22:47:54,527][read_yaml.py 11][INFO]:BASE_DIR is: /Users/lj_fei94/PycharmProjects/apiTest
+[2023-05-15 22:47:54,527][read_yaml.py 13][INFO]:fileDir is:/Users/lj_fei94/PycharmProjects/apiTest/testdata/test.yml
+[2023-05-15 22:47:54,562][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login success', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '135288728xxx', 'password': '123456abc', 'callbackType': 0}, 'extract': {'token': '$.data.token'}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 22:48:57,519][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login fail', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '1352887280xxxx', 'password': '123456abcaaaaa', 'callbackType': 0}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 22:57:01,724][read_yaml.py 11][INFO]:BASE_DIR is: /Users/lj_fei94/PycharmProjects/apiTest
+[2023-05-15 22:57:01,724][read_yaml.py 13][INFO]:fileDir is:/Users/lj_fei94/PycharmProjects/apiTest/testdata/test.yml
+[2023-05-15 22:57:01,755][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login success', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '135288728xxx', 'password': '123456abc', 'callbackType': 0}, 'extract': {'token': '$.data.token'}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 22:57:01,862][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login fail', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '1352887280xxxx', 'password': '123456abcaaaaa', 'callbackType': 0}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 22:57:57,041][read_yaml.py 11][INFO]:BASE_DIR is: /Users/lj_fei94/PycharmProjects/apiTest
+[2023-05-15 22:57:57,041][read_yaml.py 13][INFO]:fileDir is:/Users/lj_fei94/PycharmProjects/apiTest/testdata/test.yml
+[2023-05-15 22:57:57,073][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login success', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '135288728xxx', 'password': '123456abc', 'callbackType': 0}, 'extract': {'token': '$.data.token'}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 22:58:32,072][testYaml.py 21][INFO]:r is: {'code': 5, 'msg': 'Params invalid'}
+[2023-05-15 22:58:32,199][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login fail', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '1352887280xxxx', 'password': '123456abcaaaaa', 'callbackType': 0}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 22:58:33,965][testYaml.py 21][INFO]:r is: {'code': 5, 'msg': 'Params invalid'}
+[2023-05-15 22:58:37,969][read_yaml.py 11][INFO]:BASE_DIR is: /Users/lj_fei94/PycharmProjects/apiTest
+[2023-05-15 22:58:37,969][read_yaml.py 13][INFO]:fileDir is:/Users/lj_fei94/PycharmProjects/apiTest/testdata/test.yml
+[2023-05-15 22:58:37,977][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login success', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '135288728xxx', 'password': '123456abc', 'callbackType': 0}, 'extract': {'token': '$.data.token'}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 22:58:38,112][testYaml.py 21][INFO]:r is: {'code': 5, 'msg': 'Params invalid'}
+[2023-05-15 22:58:38,115][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login fail', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '1352887280xxxx', 'password': '123456abcaaaaa', 'callbackType': 0}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 22:58:38,309][testYaml.py 21][INFO]:r is: {'code': 5, 'msg': 'Params invalid'}
+[2023-05-15 23:09:57,242][read_yaml.py 11][INFO]:BASE_DIR is: /Users/lj_fei94/PycharmProjects/apiTest
+[2023-05-15 23:09:57,242][read_yaml.py 13][INFO]:fileDir is:/Users/lj_fei94/PycharmProjects/apiTest/testdata/test.yml
+[2023-05-15 23:09:57,251][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login success', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '135288728xxx', 'password': '123456abc', 'callbackType': 0}, 'extract': {'token': '$.data.token'}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 23:09:57,497][testYaml.py 21][INFO]:r is: {'code': 5, 'msg': 'Params invalid'}
+[2023-05-15 23:09:57,540][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login fail', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '1352887280xxxx', 'password': '123456abcaaaaa', 'callbackType': 0}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 23:09:57,688][testYaml.py 21][INFO]:r is: {'code': 5, 'msg': 'Params invalid'}
+[2023-05-15 23:10:34,002][read_yaml.py 11][INFO]:BASE_DIR is: /Users/lj_fei94/PycharmProjects/apiTest
+[2023-05-15 23:10:34,002][read_yaml.py 13][INFO]:fileDir is:/Users/lj_fei94/PycharmProjects/apiTest/testdata/test.yml
+[2023-05-15 23:10:34,009][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login success', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '135288728xxx', 'password': '123456abc', 'callbackType': 0}, 'extract': {'token': '$.data.token'}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 23:10:34,329][testYaml.py 21][INFO]:r is: {'code': 5, 'msg': 'Params invalid'}
+[2023-05-15 23:10:34,329][testYaml.py 22][INFO]:r.url is:5
+[2023-05-15 23:10:34,329][testYaml.py 23][INFO]:r.text is: Params invalid
+[2023-05-15 23:10:34,333][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login fail', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '1352887280xxxx', 'password': '123456abcaaaaa', 'callbackType': 0}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 23:10:34,647][testYaml.py 21][INFO]:r is: {'code': 5, 'msg': 'Params invalid'}
+[2023-05-15 23:10:34,647][testYaml.py 22][INFO]:r.url is:5
+[2023-05-15 23:10:34,647][testYaml.py 23][INFO]:r.text is: Params invalid
+[2023-05-15 23:13:28,791][read_yaml.py 11][INFO]:BASE_DIR is: /Users/lj_fei94/PycharmProjects/apiTest
+[2023-05-15 23:13:28,791][read_yaml.py 13][INFO]:fileDir is:/Users/lj_fei94/PycharmProjects/apiTest/testdata/test.yml
+[2023-05-15 23:13:28,798][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login success', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '13528872802', 'password': 'Aa12345678', 'callbackType': 0}, 'extract': {'token': '$.data.token'}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 23:13:29,051][testYaml.py 21][INFO]:res is: {'code': 0, 'data': {'googleId': '', 'gender': '', 'year': '', 'city': '', 'remark': '', 'view': 'grid', 'province': '', 'googleName': '', 'id': 14578467, 'wxName': '', 'email': '', 'vipEndDate': '', 'clientId': 'web-4fa7468c-f7a4-4d16-87aa-73f370181ede', 'level': 0, 'encryptPassword': '', 'facebookId': '', 'photo': 'photo/DEFAULT-AVATAR-4860fe1e-18d6-4e5f-b424-364f3d4347a2.jpg', 'updateTime': 1633793230453, 'wxId': '', 'passSecure': True, 'sort': 'time', 'appleId': '', 'qqId': '', 'appleName': '', 'agreeTermService': False, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJtdWJ1Iiwic3ViIjoiMTQ1Nzg0NjciLCJsb2dpblR5cGUiOiJtb2JpbGUiLCJleHAiOjE2ODY3NTU2MDksImlhdCI6MTY4NDE2MzYwOX0.rh_PHh-_S_3xK6tna7YmnUbeNjAuZvEuh4XzjTk4XYnu7QnCnCSJe6dHUMg8cltwdsKXFrJBmWvBDTYMhvrVQw', 'phone': '13528872802', 'createTime': 1633793230427, 'name': '幕布用户2327', 'anonymUserFlag': 0, 'qqName': '', 'toutiaoId': '', 'facebookName': '', 'larkId': ''}}
+[2023-05-15 23:13:29,051][testYaml.py 22][INFO]:res.code is:0
+[2023-05-15 23:13:29,091][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login fail', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '1352887280xxxx', 'password': '123456abcaaaaa', 'callbackType': 0}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 23:13:29,254][testYaml.py 21][INFO]:res is: {'code': 5, 'msg': 'Params invalid'}
+[2023-05-15 23:13:29,254][testYaml.py 22][INFO]:res.code is:5
+[2023-05-15 23:13:29,254][testYaml.py 23][INFO]:res.msg is: Params invalid
+[2023-05-15 23:15:32,147][read_yaml.py 11][INFO]:BASE_DIR is: /Users/lj_fei94/PycharmProjects/apiTest
+[2023-05-15 23:15:32,147][read_yaml.py 13][INFO]:fileDir is:/Users/lj_fei94/PycharmProjects/apiTest/testdata/test.yml
+[2023-05-15 23:15:32,156][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login success', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '13528872802', 'password': 'Aa12345678', 'callbackType': 0}, 'extract': {'token': '$.data.token'}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 23:15:32,476][testYaml.py 21][INFO]:res is: {'code': 0, 'data': {'googleId': '', 'gender': '', 'year': '', 'city': '', 'remark': '', 'view': 'grid', 'province': '', 'googleName': '', 'id': 14578467, 'wxName': '', 'email': '', 'vipEndDate': '', 'clientId': 'web-3fbd4078-a857-4089-95f2-7ddc950a357e', 'level': 0, 'encryptPassword': '', 'facebookId': '', 'photo': 'photo/DEFAULT-AVATAR-4860fe1e-18d6-4e5f-b424-364f3d4347a2.jpg', 'updateTime': 1633793230453, 'wxId': '', 'passSecure': True, 'sort': 'time', 'appleId': '', 'qqId': '', 'appleName': '', 'agreeTermService': False, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJtdWJ1Iiwic3ViIjoiMTQ1Nzg0NjciLCJsb2dpblR5cGUiOiJtb2JpbGUiLCJleHAiOjE2ODY3NTU3MzIsImlhdCI6MTY4NDE2MzczMn0.C56Dq0PaEx4GsZmp91Svi6UvDcvW18fjYqT24C57Kkqhaorot_H8ZnhwLj_U5i_Df87vVFdyAiJBn3FhEan8Cg', 'phone': '13528872802', 'createTime': 1633793230427, 'name': '幕布用户2327', 'anonymUserFlag': 0, 'qqName': '', 'toutiaoId': '', 'facebookName': '', 'larkId': ''}}
+[2023-05-15 23:15:32,477][testYaml.py 22][INFO]:res.code is:0
+[2023-05-15 23:15:32,477][testYaml.py 23][INFO]:res.msg is: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJtdWJ1Iiwic3ViIjoiMTQ1Nzg0NjciLCJsb2dpblR5cGUiOiJtb2JpbGUiLCJleHAiOjE2ODY3NTU3MzIsImlhdCI6MTY4NDE2MzczMn0.C56Dq0PaEx4GsZmp91Svi6UvDcvW18fjYqT24C57Kkqhaorot_H8ZnhwLj_U5i_Df87vVFdyAiJBn3FhEan8Cg
+[2023-05-15 23:15:32,480][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login fail', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '1352887280xxxx', 'password': '123456abcaaaaa', 'callbackType': 0}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 23:15:32,664][testYaml.py 21][INFO]:res is: {'code': 5, 'msg': 'Params invalid'}
+[2023-05-15 23:15:32,664][testYaml.py 22][INFO]:res.code is:5
+[2023-05-15 23:16:30,505][read_yaml.py 11][INFO]:BASE_DIR is: /Users/lj_fei94/PycharmProjects/apiTest
+[2023-05-15 23:16:30,505][read_yaml.py 13][INFO]:fileDir is:/Users/lj_fei94/PycharmProjects/apiTest/testdata/test.yml
+[2023-05-15 23:16:30,512][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'login success', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '13528872802', 'password': 'Aa12345678', 'callbackType': 0}, 'extract': {'token': '$.data.token'}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 23:16:30,783][testYaml.py 21][INFO]:res is: {'code': 0, 'data': {'googleId': '', 'gender': '', 'year': '', 'city': '', 'remark': '', 'view': 'grid', 'province': '', 'googleName': '', 'id': 14578467, 'wxName': '', 'email': '', 'vipEndDate': '', 'clientId': 'web-91c391cc-2f3e-42a3-83d8-49558dd68573', 'level': 0, 'encryptPassword': '', 'facebookId': '', 'photo': 'photo/DEFAULT-AVATAR-4860fe1e-18d6-4e5f-b424-364f3d4347a2.jpg', 'updateTime': 1633793230453, 'wxId': '', 'passSecure': True, 'sort': 'time', 'appleId': '', 'qqId': '', 'appleName': '', 'agreeTermService': False, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJtdWJ1Iiwic3ViIjoiMTQ1Nzg0NjciLCJsb2dpblR5cGUiOiJtb2JpbGUiLCJleHAiOjE2ODY3NTU3OTAsImlhdCI6MTY4NDE2Mzc5MH0.Amg_GOS4SM93WybLI_w33nLeFwP0PxY-rcJdJ-CIJ_zLQosuhdmEzTewa1Ojp3emspRwv48ZmgYaO_jdO6rYvg', 'phone': '13528872802', 'createTime': 1633793230427, 'name': '幕布用户2327', 'anonymUserFlag': 0, 'qqName': '', 'toutiaoId': '', 'facebookName': '', 'larkId': ''}}
+[2023-05-15 23:16:30,784][testYaml.py 22][INFO]:res.code is:0
+[2023-05-15 23:16:30,784][testYaml.py 23][INFO]:res.token is: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJtdWJ1Iiwic3ViIjoiMTQ1Nzg0NjciLCJsb2dpblR5cGUiOiJtb2JpbGUiLCJleHAiOjE2ODY3NTU3OTAsImlhdCI6MTY4NDE2Mzc5MH0.Amg_GOS4SM93WybLI_w33nLeFwP0PxY-rcJdJ-CIJ_zLQosuhdmEzTewa1Ojp3emspRwv48ZmgYaO_jdO6rYvg
+[2023-05-15 23:38:06,997][read_yaml.py 11][INFO]:BASE_DIR is: /Users/lj_fei94/PycharmProjects/apiTest
+[2023-05-15 23:38:06,998][read_yaml.py 13][INFO]:fileDir is:/Users/lj_fei94/PycharmProjects/apiTest/testdata/test.yml
+[2023-05-15 23:38:07,004][testParserData.py 15][INFO]:data is: {'testCase': {'description': 'login success', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '13528872802', 'password': 'Aa12345678', 'callbackType': 0}, 'extract': {'token': '$.data.token'}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 23:38:07,258][testParserData.py 20][INFO]:res is: {'code': 0, 'data': {'googleId': '', 'gender': '', 'year': '', 'city': '', 'remark': '', 'view': 'grid', 'province': '', 'googleName': '', 'id': 14578467, 'wxName': '', 'email': '', 'vipEndDate': '', 'clientId': 'web-0dfc0b0f-053a-4261-babd-dad163a54144', 'level': 0, 'encryptPassword': '', 'facebookId': '', 'photo': 'photo/DEFAULT-AVATAR-4860fe1e-18d6-4e5f-b424-364f3d4347a2.jpg', 'updateTime': 1633793230453, 'wxId': '', 'passSecure': True, 'sort': 'time', 'appleId': '', 'qqId': '', 'appleName': '', 'agreeTermService': False, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJtdWJ1Iiwic3ViIjoiMTQ1Nzg0NjciLCJsb2dpblR5cGUiOiJtb2JpbGUiLCJleHAiOjE2ODY3NTcwODcsImlhdCI6MTY4NDE2NTA4N30.E7IUFRSWVYnZah_995GdLVvxk-oUOTQXNxKyOYPcm1KWMYFf4TRR4TR6B4QOS69_JSYgRkj0UEdq5GLUHzj4Pg', 'phone': '13528872802', 'createTime': 1633793230427, 'name': '幕布用户2327', 'anonymUserFlag': 0, 'qqName': '', 'toutiaoId': '', 'facebookName': '', 'larkId': ''}}
+[2023-05-15 23:38:07,259][testParserData.py 21][INFO]:res.code is:0
+[2023-05-15 23:38:07,259][testParserData.py 22][INFO]:res.token is: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJtdWJ1Iiwic3ViIjoiMTQ1Nzg0NjciLCJsb2dpblR5cGUiOiJtb2JpbGUiLCJleHAiOjE2ODY3NTcwODcsImlhdCI6MTY4NDE2NTA4N30.E7IUFRSWVYnZah_995GdLVvxk-oUOTQXNxKyOYPcm1KWMYFf4TRR4TR6B4QOS69_JSYgRkj0UEdq5GLUHzj4Pg
+[2023-05-15 23:40:00,434][read_yaml.py 11][INFO]:BASE_DIR is: /Users/lj_fei94/PycharmProjects/apiTest
+[2023-05-15 23:40:00,434][read_yaml.py 13][INFO]:fileDir is:/Users/lj_fei94/PycharmProjects/apiTest/testdata/test.yml
+[2023-05-15 23:40:00,440][testParserData.py 15][INFO]:data is: {'testCase': {'description': 'login success', 'name': 'login', 'method': 'post', 'uri': '/v3/api/user/phone_login', 'headers': {'Content-Type': 'application/json'}, 'payload': {'phone': '13528872802', 'password': 'Aa12345678', 'callbackType': 0}, 'extract': {'token': '$.data.token'}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
+[2023-05-15 23:40:00,746][parser_data.py 17][INFO]:key is: token, val is:$.data.token, value is:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJtdWJ1Iiwic3ViIjoiMTQ1Nzg0NjciLCJsb2dpblR5cGUiOiJtb2JpbGUiLCJleHAiOjE2ODY3NTcyMDAsImlhdCI6MTY4NDE2NTIwMH0.JkuBt4NAxoHJ1B6Av_NUHeDuo2iWh2_6UJakVLo8axqetC81qN5BOBj3gIuqnrQwFCOnvRfV_DAsobYIO2RKHw
+[2023-05-15 23:40:00,747][testParserData.py 20][INFO]:res is: {'code': 0, 'data': {'googleId': '', 'gender': '', 'year': '', 'city': '', 'remark': '', 'view': 'grid', 'province': '', 'googleName': '', 'id': 14578467, 'wxName': '', 'email': '', 'vipEndDate': '', 'clientId': 'web-a87466f0-2998-405c-a60e-ab266ec958e5', 'level': 0, 'encryptPassword': '', 'facebookId': '', 'photo': 'photo/DEFAULT-AVATAR-4860fe1e-18d6-4e5f-b424-364f3d4347a2.jpg', 'updateTime': 1633793230453, 'wxId': '', 'passSecure': True, 'sort': 'time', 'appleId': '', 'qqId': '', 'appleName': '', 'agreeTermService': False, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJtdWJ1Iiwic3ViIjoiMTQ1Nzg0NjciLCJsb2dpblR5cGUiOiJtb2JpbGUiLCJleHAiOjE2ODY3NTcyMDAsImlhdCI6MTY4NDE2NTIwMH0.JkuBt4NAxoHJ1B6Av_NUHeDuo2iWh2_6UJakVLo8axqetC81qN5BOBj3gIuqnrQwFCOnvRfV_DAsobYIO2RKHw', 'phone': '13528872802', 'createTime': 1633793230427, 'name': '幕布用户2327', 'anonymUserFlag': 0, 'qqName': '', 'toutiaoId': '', 'facebookName': '', 'larkId': ''}}
+[2023-05-15 23:40:00,747][testParserData.py 21][INFO]:res.code is:0
+[2023-05-15 23:40:00,747][testParserData.py 22][INFO]:res.token is: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJtdWJ1Iiwic3ViIjoiMTQ1Nzg0NjciLCJsb2dpblR5cGUiOiJtb2JpbGUiLCJleHAiOjE2ODY3NTcyMDAsImlhdCI6MTY4NDE2NTIwMH0.JkuBt4NAxoHJ1B6Av_NUHeDuo2iWh2_6UJakVLo8axqetC81qN5BOBj3gIuqnrQwFCOnvRfV_DAsobYIO2RKHw
