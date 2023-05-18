@@ -16,5 +16,5 @@ if __name__ == '__main__':
     pytest.main(['-vs', '--alluredir=./temp', '--baseUrl=https://api2.mubu.com'])
     os.system(r"rm -rf ./allure-report")
     os.system(r"allure generate ./temp -o ./allure-report --clean")
-    os.system(r"allure open ./allure-report")
+    # os.system(r"allure open ./allure-report")
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
