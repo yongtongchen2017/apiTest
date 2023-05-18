@@ -726,3 +726,19 @@
 [2023-05-18 10:54:13,943][testYaml.py 17][INFO]:data is: {'testCase': {'description': 'profile', 'name': 'profile', 'method': 'post', 'uri': '/v3/api/user/profile', 'headers': {'Content-Type': 'application/json', 'jwt-token': '${token}'}, 'payload': {}, 'validate': [{'equal_to': {'$.code': 0}}, {'equal_to': {'$.code': 0}}]}}
 [2023-05-18 10:54:14,142][testYaml.py 21][INFO]:res is: {'code': 2, 'msg': 'Login Expired'}
 [2023-05-18 10:54:14,142][testYaml.py 22][INFO]:res.code is:2
+[2023-05-18 11:29:21,273][testRequest.py 36][INFO]:r is: {'args': {}, 'data': '{"key1": "value1", "key2": "value2"}', 'files': {}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '36', 'Content-Type': 'application/json', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.30.0', 'X-Amzn-Trace-Id': 'Root=1-64659b8d-5c0195043eb6809b67a8f40b'}, 'json': {'key1': 'value1', 'key2': 'value2'}, 'origin': '36.27.122.218', 'url': 'https://httpbin.org/post'}
+[2023-05-18 11:29:21,274][testRequest.py 37][INFO]:r.url is: https://httpbin.org/post
+[2023-05-18 11:29:21,274][testRequest.py 38][INFO]:r.json is: {'key1': 'value1', 'key2': 'value2'}
+[2023-05-18 11:29:21,274][testRequest.py 39][INFO]:r.data is:{"key1": "value1", "key2": "value2"}
+[2023-05-18 11:32:55,555][testRequest.py 36][INFO]:r is: {'args': {}, 'data': '{"key1": "value1", "key2": "value2"}', 'files': {}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '36', 'Content-Type': 'application/json', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.30.0', 'X-Amzn-Trace-Id': 'Root=1-64659c64-107927513dc47de90d0c63ae'}, 'json': {'key1': 'value1', 'key2': 'value2'}, 'origin': '36.27.122.218', 'url': 'https://httpbin.org/post'}
+[2023-05-18 11:32:55,556][testRequest.py 37][INFO]:r.url is: https://httpbin.org/post
+[2023-05-18 11:32:55,556][testRequest.py 38][INFO]:r.json is: {'key1': 'value1', 'key2': 'value2'}
+[2023-05-18 11:32:55,556][testRequest.py 39][INFO]:r.data is:{"key1": "value1", "key2": "value2"}
+[2023-05-18 11:35:29,313][testRequest.py 36][INFO]:r is: {'args': {}, 'data': '{"key1": "value1", "key2": "value2"}', 'files': {}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '36', 'Content-Type': 'application/json', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.30.0', 'X-Amzn-Trace-Id': 'Root=1-64659cfd-21754dd271e4bb03593892b7'}, 'json': {'key1': 'value1', 'key2': 'value2'}, 'origin': '36.27.122.218', 'url': 'https://httpbin.org/post'}
+[2023-05-18 11:35:29,313][testRequest.py 37][INFO]:r.url is: https://httpbin.org/post
+[2023-05-18 11:35:29,313][testRequest.py 38][INFO]:r.json is: {'key1': 'value1', 'key2': 'value2'}
+[2023-05-18 11:35:29,314][testRequest.py 39][INFO]:r.data is:{"key1": "value1", "key2": "value2"}
+[2023-05-18 11:38:11,210][testRequest.py 36][INFO]:r is: {'args': {}, 'data': '{"key1": "value1", "key2": "value2"}', 'files': {}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '36', 'Content-Type': 'application/json', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.30.0', 'X-Amzn-Trace-Id': 'Root=1-64659d9d-08d3c4bf2afe787960c5fcd7'}, 'json': {'key1': 'value1', 'key2': 'value2'}, 'origin': '36.27.122.218', 'url': 'https://httpbin.org/post'}
+[2023-05-18 11:38:11,211][testRequest.py 37][INFO]:r.url is: https://httpbin.org/post
+[2023-05-18 11:38:11,211][testRequest.py 38][INFO]:r.json is: {'key1': 'value1', 'key2': 'value2'}
+[2023-05-18 11:38:11,211][testRequest.py 39][INFO]:r.data is:{"key1": "value1", "key2": "value2"}
